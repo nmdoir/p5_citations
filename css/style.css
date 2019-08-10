@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #91c9ff;
+  background-image: url("background.jpg");
 }
 
 [tabindex="-1"]:focus {
@@ -10045,4 +10045,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: white;
   margin-right: 1rem;
   margin-left: 1rem;
+}
+
+.text-margin {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
 }
