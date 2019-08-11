@@ -76,7 +76,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -10054,7 +10054,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-margin {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   margin-bottom: 0.25rem;
 }
 
@@ -10067,7 +10067,16 @@ label:hover {
   src: url("fonts/got.ttf");
 }
 
-.got {
+@font-face {
+  font-family: "Friends";
+  src: url("fonts/friends.ttf");
+}
+
+.font-got {
   font-family: 'GoT', 'Raleway', sans-serif;
+}
+
+.font-friends {
+  font-family: 'Friends', 'Raleway', sans-serif;
 }
 
