@@ -61,6 +61,7 @@ body {
   color: #212529;
   text-align: left;
   background-image: url("background.jpg");
+  font-family: 'Raleway', sans-serif;
 }
 
 [tabindex="-1"]:focus {
@@ -368,10 +369,12 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 h2, .h2 {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 h3, .h3 {
@@ -10039,15 +10042,30 @@ a.text-dark:hover, a.text-dark:focus {
 
 .centered {
   text-align: center;
+  align-content: center;
 }
 
-.background-white {
-  background-color: white;
-  margin-right: 1rem;
-  margin-left: 1rem;
+.text-white {
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .text-margin {
   margin-top: 0.5rem;
   margin-bottom: 0.25rem;
 }
+
+label:hover {
+  color: #cb5356;
+}
+
+@font-face {
+  font-family: "GoT";
+  src: url("fonts/got.ttf");
+}
+
+.got {
+  font-family: 'GoT', 'Raleway', sans-serif;
+}
+
