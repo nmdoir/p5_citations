@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634206c4-18e0-46e0-bc5f-9ab62a289031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+            <state relative-caret-position="221">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -33,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2441" column="35" selection-start-line="2441" selection-start-column="35" selection-end-line="2441" selection-end-column="35" />
+            <state relative-caret-position="170952">
+              <caret line="10056" column="17" selection-start-line="10056" selection-start-column="17" selection-end-line="10056" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -61,6 +67,8 @@
       <find>button</find>
       <find>btn</find>
       <find>btn-primary</find>
+      <find>h2</find>
+      <find>text-mar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,9 +78,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index_test.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -99,11 +107,6 @@
               <item name="p5_citations" type="b2602c69:ProjectViewProjectNode" />
               <item name="p5_citations" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="p5_citations" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p5_citations" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,7 +153,9 @@
       <workItem from="1565296131411" duration="2918000" />
       <workItem from="1565302603123" duration="187000" />
       <workItem from="1565348291222" duration="5829000" />
-      <workItem from="1565516656964" duration="9644000" />
+      <workItem from="1565516656964" duration="16249000" />
+      <workItem from="1565544874972" duration="1063000" />
+      <workItem from="1565613268830" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Fichier bootstrap de base">
       <created>1565297653450</created>
@@ -201,11 +206,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565522405783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bouton">
+      <created>1565530509606</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565530509606</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Grid col">
+      <created>1565536076241</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565536076241</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18578000" />
+    <option name="totallyTimeSpent" value="26259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,6 +252,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.27531084" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -249,7 +269,9 @@
     <MESSAGE value="Blocs background blanc" />
     <MESSAGE value="Tests backgrounds" />
     <MESSAGE value="Fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fonts" />
+    <MESSAGE value="Bouton" />
+    <MESSAGE value="Grid col" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid col" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.min.css" />
@@ -265,20 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2441" column="35" selection-start-line="2441" selection-start-column="35" selection-end-line="2441" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -288,8 +296,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+        <state relative-caret-position="221">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170952">
+          <caret line="10056" column="17" selection-start-line="10056" selection-start-column="17" selection-end-line="10056" selection-end-column="17" />
         </state>
       </provider>
     </entry>
