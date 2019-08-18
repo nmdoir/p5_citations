@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634206c4-18e0-46e0-bc5f-9ab62a289031" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/citations_friends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/citations_got.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -108,6 +110,11 @@
               <item name="p5_citations" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="p5_citations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p5_citations" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -156,6 +163,7 @@
       <workItem from="1565516656964" duration="16249000" />
       <workItem from="1565544874972" duration="1063000" />
       <workItem from="1565613268830" duration="13000" />
+      <workItem from="1565950524824" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="Fichier bootstrap de base">
       <created>1565297653450</created>
@@ -220,11 +228,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565536076241</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajout des fichiers JS">
+      <created>1565950599922</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565950599922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26259000" />
+    <option name="totallyTimeSpent" value="26943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,7 +286,8 @@
     <MESSAGE value="Fonts" />
     <MESSAGE value="Bouton" />
     <MESSAGE value="Grid col" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grid col" />
+    <MESSAGE value="Ajout des fichiers JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des fichiers JS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.min.css" />
