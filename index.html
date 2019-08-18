@@ -14,66 +14,69 @@
         <p class="centered text-white">Choisissez une série et le nombre de citations que vous souhaitez générer.<br/>
         Cliquez sur le bouton "Lancer !" et découvrez des citations dignes de votre série préférée !</p>
     </div>
-    <div class="container">
-        <div class="row align-items-center justify-content-around">
-            <div class="col-lg-3 offset-lg-2 col-sm-5 offset-sm-1">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="centered">Série</h2>
-                        <div class="form-check text-margin">
-                            <input class="form-check-input" type="radio" name="serie" id="got" value="got">
-                            <label class="form-check-label font-got" for="got">
-                                Game of Thrones
-                            </label>
-                        </div>
-                        <div class="form-check text-margin">
-                            <input class="form-check-input" type="radio" name="serie" id="friends" value="friends">
-                            <label class="form-check-label font-friends" for="friends">
-                                Friends
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 offset-lg-2 col-sm-5">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title centered">Citations</h2>
-                        <div class="form-check text-margin">
-                            <input class="form-check-input" type="radio" name="citations" id="1" value="1">
-                            <label class="form-check-label" for="1">
-                                1 citation
-                            </label>
-                        </div>
-                        <div class="form-check text-margin">
-                            <input class="form-check-input" type="radio" name="citations" id="2" value="2">
-                            <label class="form-check-label" for="2">
-                                2 citations
-                            </label>
-                        </div>
-                        <div class="form-check text-margin">
-                            <input class="form-check-input" type="radio" name="citations" id="3" value="3">
-                            <label class="form-check-label" for="3">
-                                3 citations
-                            </label>
-                        </div>
-                        <div class="form-check text-margin">
-                            <input class="form-check-input" type="radio" name="citations" id="4" value="4">
-                            <label class="form-check-label" for="4">
-                                4 citations
-                            </label>
+
+    <form>
+        <div class="container">
+            <div class="row align-items-center justify-content-around">
+                <div class="col-lg-3 offset-lg-2 col-sm-5 offset-sm-1">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="centered">Série</h2>
+                            <div class="form-check text-margin">
+                                <input class="form-check-input" type="radio" name="serie" id="got" value="got">
+                                <label class="form-check-label font-got" for="got">
+                                    Game of Thrones
+                                </label>
+                            </div>
+                            <div class="form-check text-margin">
+                                <input class="form-check-input" type="radio" name="serie" id="friends" value="friends">
+                                <label class="form-check-label font-friends" for="friends">
+                                    Friends
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-2 col-sm-1">
+                <div class="col-lg-3 offset-lg-2 col-sm-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title centered">Citations</h2>
+                            <div class="form-check text-margin">
+                                <input class="form-check-input" type="radio" name="citations" id="1" value="1">
+                                <label class="form-check-label" for="1">
+                                    1 citation
+                                </label>
+                            </div>
+                            <div class="form-check text-margin">
+                                <input class="form-check-input" type="radio" name="citations" id="2" value="2">
+                                <label class="form-check-label" for="2">
+                                    2 citations
+                                </label>
+                            </div>
+                            <div class="form-check text-margin">
+                                <input class="form-check-input" type="radio" name="citations" id="3" value="3">
+                                <label class="form-check-label" for="3">
+                                    3 citations
+                                </label>
+                            </div>
+                            <div class="form-check text-margin">
+                                <input class="form-check-input" type="radio" name="citations" id="4" value="4">
+                                <label class="form-check-label" for="4">
+                                    4 citations
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-1">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <button type="button" class="btn btn-primary btn-lg">Lancer !</button>
+        <div class="container">
+            <div class="row justify-content-center">
+                <input type="submit" class="btn btn-primary btn-lg" value="Lancer !">
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 </html>
