@@ -41,9 +41,9 @@ var friends3 = [
     " car j'ai trop de temps libre."
 ];
 
-var friends1_alea = friends1[Math.floor(Math.random()*12)];
-var friends2_alea = friends2[Math.floor(Math.random()*8)];
-var friends3_alea = friends3[Math.floor(Math.random()*11)];
+var friends1_alea = friends1[Math.floor(Math.random()*friends1.length)];
+var friends2_alea = friends2[Math.floor(Math.random()*friends2.length)];
+var friends3_alea = friends3[Math.floor(Math.random()*friends3.length)];
 
 var citationFriends = "";
 console.log(citationFriends.concat(friends1_alea, friends2_alea, friends3_alea));

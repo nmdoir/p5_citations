@@ -38,9 +38,9 @@ var got3 = [
     " le royaume des hommes."
 ];
 
-var got1_alea = got1[Math.floor(Math.random()*12)];
-var got2_alea = got2[Math.floor(Math.random()*8)];
-var got3_alea = got3[Math.floor(Math.random()*11)];
+var got1_alea = got1[Math.floor(Math.random()*got1.length)];
+var got2_alea = got2[Math.floor(Math.random()*got2.length)];
+var got3_alea = got3[Math.floor(Math.random()*got3.length)];
 
 var citationGot = "";
 console.log(citationGot.concat(got1_alea, got2_alea, got3_alea));

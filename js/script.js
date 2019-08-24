@@ -1,48 +1,130 @@
-// Clic sur la série choisie
-var serieElts = document.getElementsByName("serie");
-for (var i = 0; i < serieElts.length; i++) {
-    serieElts[i].addEventListener("change", function (e) {
-        var choix = + e.target.value;
-    });
-}
+//Citations
+var friends1 = [
+    "Si j'ai bien entendu,",
+    "C'est un mirage auditif,",
+    "Ma femme est lesbienne,",
+    "Et moi,",
+    "M. Luther King a dit,",
+    "On dirait que",
+    "J'ai un but dans la vie,",
+    "C'est pas de ma faute,",
+    "Je ne sais pas combien de temps on va rester coincés ici,",
+    "Je suis nul pour donner des conseils,",
+    "J'ai besoin d'un café,"
+];
 
-// Clic sur le nombre de citations choisies
-var citationsElts = document.getElementsByName("citations");
-for (var i = 0; i < citationsElts.length; i++) {
-    citationsElts[i].addEventListener("change", function (e) {
-        var nombre = + e.target.value;
-    });
-}
+var friends2 = [
+    " je vais me suicider",
+    " je répond au téléphone",
+    " je trouve ça tellement bon",
+    " j'insiste",
+    " j'aimerais vous aider",
+    " j'ai fait un rêve",
+    " je fais 5kg de plus",
+    " je voudrais mettre mon peignoir",
+    " j'ai divorcé",
+    " j'étais célibataire",
+    " je suis doué",
+    " je disais ça"
+];
+
+var friends3 = [
+    " avec des yaourts périmés.",
+    " en partageant mon repas.",
+    " alors je vais manger sur le balcon.",
+    " dans l'autre sens.",
+    " mais j'ai pas envie d'en parler",
+    " à cause de la caméra.",
+    " en mangeant des pistaches.",
+    " à trois reprises.",
+    " pour faire des commentaires sarcastiques.",
+    " par politesse.",
+    " car j'ai trop de temps libre."
+];
+
+var friends1_alea = friends1[Math.floor(Math.random()*friends1.length)];
+var friends2_alea = friends2[Math.floor(Math.random()*friends2.length)];
+var friends3_alea = friends3[Math.floor(Math.random()*friends3.length)];
+
+function concatFriends() {
+    var citationFriends = friends1_alea.concat(friends2_alea, friends3_alea);
+    return citationFriends;
+};
+
+function concatGot() {
+var got1 = [
+    "Quand on joue le jeu des trônes, on",
+    "Un Lannister",
+    "Elle n'est pas une princesse, elle",
+    "Le chaos",
+    "L'amour",
+    "Le lion",
+    "Le feu",
+    "La peur",
+    "La nuit",
+    "Le loup solitaire",
+    "Le bouclier",
+    "Le nord"
+];
+
+var got2 = [
+    " gagne",
+    " paie toujours",
+    " est",
+    " n'écoute pas",
+    " ne peut pas tuer",
+    " tranche",
+    " mord",
+    " protège"
+];
+
+var got3 = [
+    " tout.",
+    " ses dettes.",
+    " une Khaleesi.",
+    " une échelle.",
+    " un poison.",
+    " ce que disent les moutons.",
+    " un dragon.",
+    " plus fort qu'une épée.",
+    " plein de terreurs.",
+    ", mais la meute survit.",
+    " le royaume des hommes."
+];
+
+    var got1_alea = got1[Math.floor(Math.random()*got1.length)];
+    var got2_alea = got2[Math.floor(Math.random()*got2.length)];
+    var got3_alea = got3[Math.floor(Math.random()*got3.length)];
+
+    var citationGot = got1_alea.concat(got2_alea, got3_alea);
+    return citationGot;
+};
 
 
-// Affiche de toutes les données saisies ou choisies
-form.addEventListener("submit", function (e) {
-    switch (form.elements.serie.value) {
-        case "got":
-            console.log("Vous avez choisi got");
-            break;
-        case "friends":
-            console.log("Vous avez choisi friends");
-            break;
-        default:
-            console.log("Choisissez une série.");
+//Choix série
+function choixSerie() {
+    var serie = document.getElementsByName("serie:checked").value;
+    if (serie === "got") {
+        concatGot();
     }
-    switch (form.elements.citations.value) {
-        case "1":
-            console.log("Vous avez choisi 1 citation");
-            break;
-        case "2":
-            console.log("Vous avez choisi 2 citations");
-            break;
-        case "3":
-            console.log("Vous avez choisi 3 citations");
-            break;
-        case "4":
-            console.log("Vous avez choisi 4 citations");
-            break;
-        default:
-            console.log("Choisissez le nombre de citations que vous souhaitez générer.");
-    }
-    e.preventDefault(); // Annulation de l'envoi des données
-});
+else {
+        concatFriends();
+    };
+};
+
+//Choix nombre de citations
+function nombreCitations() {
+  var citations = document.getElementsByName("citations:checked").value;
+  return citations;
+};
+
+//Générer citations
+function generer() {
+    var n = nombreCitations();
+    for (let i=0; i < n; i++) {
+        document.getElementById("result").innerHTML = choixSerie();
+    };
+};
+
+
 
