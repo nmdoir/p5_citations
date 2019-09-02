@@ -101,7 +101,7 @@ function concatGot() {
 
 //Choix série
 function choixSerie() {
-    var serie = serie = document.querySelector('input[name=serie]:checked').value
+    var serie = document.querySelector('input[name=serie]:checked').value
     if (serie === "got") {
         concatGot();
     }
