@@ -101,26 +101,35 @@ function concatGot() {
 
 //Choix série
 function choixSerie() {
-    var serie = document.querySelector('input[name=serie]:checked').value
+    var serie = document.querySelector('input[name=serie]:checked').value;
     if (serie === "got") {
         concatGot();
     }
-else {
+    else if serie === "friends") {
         concatFriends();
-    };
+    }
+    else {
+        alert("Veuillez choisir une série.")
+    }
 };
 
 //Choix nombre de citations
 function nombreCitations() {
   var nombre = document.querySelector('input[name=citations]:checked').value;
-  return nombre;
+  if (nombre === "") {
+      alert("Veuillez choisir le nombre de citations à générer.")
+  }
+  else {
+      return nombre;
+  };
 };
 
 //Générer citations
 function generer() {
     var n = nombreCitations();
     for (let i=0; i < n; i++) {
-        document.getElementById("result").innerHTML = choixSerie();
+        var phrase = choixSerie();
+        document.getElementById("result").innerHTML = phrase;
     };
 };
 
