@@ -47,11 +47,9 @@ var friends2_alea = friends2[Math.floor(Math.random()*friends2.length)];
 var friends3_alea = friends3[Math.floor(Math.random()*friends3.length)];
 
 function concatFriends() {
-    var citationFriends = friends1_alea.concat(friends2_alea, friends3_alea);
-    return citationFriends;
+    return friends1_alea.concat(friends2_alea, friends3_alea);
 };
 
-function concatGot() {
 var got1 = [
     "Quand on joue le jeu des trônes, on",
     "Un Lannister",
@@ -96,14 +94,14 @@ var got3 = [
     var got2_alea = got2[Math.floor(Math.random()*got2.length)];
     var got3_alea = got3[Math.floor(Math.random()*got3.length)];
 
-    var citationGot = got1_alea.concat(got2_alea, got3_alea);
-    return citationGot;
+function concatGot() {
+    return got1_alea.concat(got2_alea, got3_alea);
 };
 
 
 //Choix série
 function choixSerie() {
-    var serie = document.getElementsByName("serie:checked").value;
+    var serie = serie = document.querySelector('input[name=serie]:checked').value
     if (serie === "got") {
         concatGot();
     }
@@ -114,8 +112,8 @@ else {
 
 //Choix nombre de citations
 function nombreCitations() {
-  var citations = document.getElementsByName("citations:checked").value;
-  return citations;
+  var nombre = document.querySelector('input[name=citations]:checked').value;
+  return nombre;
 };
 
 //Générer citations
