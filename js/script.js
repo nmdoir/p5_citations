@@ -46,10 +46,6 @@ var friends1_alea = friends1[Math.floor(Math.random()*friends1.length)];
 var friends2_alea = friends2[Math.floor(Math.random()*friends2.length)];
 var friends3_alea = friends3[Math.floor(Math.random()*friends3.length)];
 
-function concatFriends() {
-    return friends1_alea.concat(friends2_alea, friends3_alea);
-};
-
 var got1 = [
     "Quand on joue le jeu des trônes, on",
     "Un Lannister",
@@ -94,22 +90,18 @@ var got3 = [
     var got2_alea = got2[Math.floor(Math.random()*got2.length)];
     var got3_alea = got3[Math.floor(Math.random()*got3.length)];
 
-function concatGot() {
-    return got1_alea.concat(got2_alea, got3_alea);
-};
-
 
 //Choix série
 function choixSerie() {
     var serie = document.querySelector('input[name=serie]:checked').value;
     if (serie === "got") {
-        concatGot();
+        return got1_alea + got2_alea + got3_alea;
     }
-    else if serie === "friends") {
-        concatFriends();
+    else if (serie === "friends") {
+        return friends1_alea + friends2_alea + friends3_alea;
     }
     else {
-        alert("Veuillez choisir une série.")
+        alert("Veuillez choisir une série.");
     }
 };
 
@@ -117,7 +109,7 @@ function choixSerie() {
 function nombreCitations() {
   var nombre = document.querySelector('input[name=citations]:checked').value;
   if (nombre === "") {
-      alert("Veuillez choisir le nombre de citations à générer.")
+      alert("Veuillez choisir le nombre de citations à générer.");
   }
   else {
       return nombre;
@@ -127,11 +119,39 @@ function nombreCitations() {
 //Générer citations
 function generer() {
     var n = nombreCitations();
-    for (let i=0; i < n; i++) {
-        var phrase = choixSerie();
-        document.getElementById("result").innerHTML = phrase;
+    let phrase = [];
+    var bloc = document.createElement("div");
+    bloc.setAttribute("class","card card-body text-margin");
+    document.getElementById("result").appendChild(bloc);
+    for (var i=0; i < n; i++) {
+        var list = document.createElement("li");
+        phrase[i] = choixSerie();
+        list.innerHTML = phrase[i];
+        bloc.appendChild(list);
     };
 };
 
 
 
+
+
+/*
+
+
+function generer() {
+    var n = nombreCitations();
+    for (let i=0; i < n; i++) {
+        var p =  document.createElement("div");
+        document.appendChild(div)
+        document.body.getElementById("result").innerHTML = choixSerie();
+    };
+};
+
+
+var bloc = document.createElement("div");
+document.getElementById("result").appendChild(bloc);
+bloc.classList.add("card card-body");
+for (let i=0; i < n; i++) {
+    let phrase[i] = choixSerie();
+    document.getElementById("result").innerHTML = phrase[i];
+ */
