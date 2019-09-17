@@ -42,9 +42,6 @@ var friends3 = [
     " car j'ai trop de temps libre."
 ];
 
-var friends1_alea = friends1[Math.floor(Math.random()*friends1.length)];
-var friends2_alea = friends2[Math.floor(Math.random()*friends2.length)];
-var friends3_alea = friends3[Math.floor(Math.random()*friends3.length)];
 
 var got1 = [
     "Quand on joue le jeu des trônes, on",
@@ -86,29 +83,26 @@ var got3 = [
     " le royaume des hommes."
 ];
 
-    var got1_alea = got1[Math.floor(Math.random()*got1.length)];
-    var got2_alea = got2[Math.floor(Math.random()*got2.length)];
-    var got3_alea = got3[Math.floor(Math.random()*got3.length)];
-
 
 //Choix série
+
 function choixSerie() {
-    var serie = document.querySelector('input[name=serie]:checked').value;
-    if (serie === "got") {
-        return got1_alea + got2_alea + got3_alea;
+    var serie = document.querySelector('input[name=serie]:checked') !== null ? document.querySelector('input[name=serie]:checked').value : null;
+    if (!serie || serie === "") {
+        alert("Veuillez choisir une série.");
     }
     else if (serie === "friends") {
-        return friends1_alea + friends2_alea + friends3_alea;
+        return friends1[Math.floor(Math.random()*friends1.length)] + friends2[Math.floor(Math.random()*friends2.length)] + friends3[Math.floor(Math.random()*friends3.length)];
     }
-    else {
-        alert("Veuillez choisir une série.");
+    else if (serie === "got") {
+        return got1[Math.floor(Math.random()*got1.length)] + got2[Math.floor(Math.random()*got2.length)] + got3[Math.floor(Math.random()*got3.length)];
     }
 };
 
 //Choix nombre de citations
 function nombreCitations() {
-  var nombre = document.querySelector('input[name=citations]:checked').value;
-  if (nombre === "") {
+  var nombre = document.querySelector('input[name=citations]:checked') !== null ? document.querySelector('input[name=citations]:checked').value : null;
+  if (!nombre || nombre === "") {
       alert("Veuillez choisir le nombre de citations à générer.");
   }
   else {
@@ -119,15 +113,15 @@ function nombreCitations() {
 //Générer citations
 function generer() {
     var n = nombreCitations();
-    let phrase = [];
-    var bloc = document.createElement("div");
-    bloc.setAttribute("class","card card-body text-margin");
-    document.getElementById("result").appendChild(bloc);
+    var phrase = "";
+    var bloc = document.getElementById("result");
+    bloc.innerHTML = "";
     for (var i=0; i < n; i++) {
-        var list = document.createElement("li");
-        phrase[i] = choixSerie();
-        list.innerHTML = phrase[i];
-        bloc.appendChild(list);
+        bloc.setAttribute("class","card result-body");
+        var p = document.createElement("p");
+        phrase = choixSerie();
+        p.innerHTML = phrase;
+        bloc.appendChild(p);
     };
 };
 

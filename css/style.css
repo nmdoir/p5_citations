@@ -10079,3 +10079,11 @@ label:hover {
 .font-friends {
   font-family: 'Friends', 'Raleway', sans-serif;
 }
+
+.result-body {
+    padding-top: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0;
+    padding-left: 1.25rem;
+
+}
