@@ -85,16 +85,12 @@ var got3 = [
 
 
 //Choix série
-
 function choixSerie() {
     var serie = document.querySelector('input[name=serie]:checked') !== null ? document.querySelector('input[name=serie]:checked').value : null;
-    if (!serie || serie === "") {
-        alert("Veuillez choisir une série.");
-    }
-    else if (serie === "friends") {
+    if (serie === "friends") {
         return friends1[Math.floor(Math.random()*friends1.length)] + friends2[Math.floor(Math.random()*friends2.length)] + friends3[Math.floor(Math.random()*friends3.length)];
     }
-    else if (serie === "got") {
+    else {
         return got1[Math.floor(Math.random()*got1.length)] + got2[Math.floor(Math.random()*got2.length)] + got3[Math.floor(Math.random()*got3.length)];
     }
 };
@@ -102,8 +98,9 @@ function choixSerie() {
 //Choix nombre de citations
 function nombreCitations() {
   var nombre = document.querySelector('input[name=citations]:checked') !== null ? document.querySelector('input[name=citations]:checked').value : null;
-  if (!nombre || nombre === "") {
-      alert("Veuillez choisir le nombre de citations à générer.");
+  var serie = document.querySelector('input[name=serie]:checked') !== null ? document.querySelector('input[name=serie]:checked').value : null;
+    if (!nombre || nombre === "" || !serie || serie === "") {
+      alert("Veuillez choisir une série ainsi que le nombre de citations à générer.");
   }
   else {
       return nombre;
@@ -125,27 +122,3 @@ function generer() {
     };
 };
 
-
-
-
-
-/*
-
-
-function generer() {
-    var n = nombreCitations();
-    for (let i=0; i < n; i++) {
-        var p =  document.createElement("div");
-        document.appendChild(div)
-        document.body.getElementById("result").innerHTML = choixSerie();
-    };
-};
-
-
-var bloc = document.createElement("div");
-document.getElementById("result").appendChild(bloc);
-bloc.classList.add("card card-body");
-for (let i=0; i < n; i++) {
-    let phrase[i] = choixSerie();
-    document.getElementById("result").innerHTML = phrase[i];
- */
