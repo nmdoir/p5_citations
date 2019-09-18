@@ -88,12 +88,16 @@ var got3 = [
 function choixSerie() {
     var serie = document.querySelector('input[name=serie]:checked') !== null ? document.querySelector('input[name=serie]:checked').value : null;
     if (serie === "friends") {
-        return friends1[Math.floor(Math.random()*friends1.length)] + friends2[Math.floor(Math.random()*friends2.length)] + friends3[Math.floor(Math.random()*friends3.length)];
+        return friends1[Math.floor(Math.random()*friends1.length)]
+            + friends2[Math.floor(Math.random()*friends2.length)]
+            + friends3[Math.floor(Math.random()*friends3.length)];
     }
     else {
-        return got1[Math.floor(Math.random()*got1.length)] + got2[Math.floor(Math.random()*got2.length)] + got3[Math.floor(Math.random()*got3.length)];
+        return got1[Math.floor(Math.random()*got1.length)]
+            + got2[Math.floor(Math.random()*got2.length)]
+            + got3[Math.floor(Math.random()*got3.length)];
     }
-};
+}
 
 //Choix nombre de citations
 function nombreCitations() {
@@ -104,8 +108,8 @@ function nombreCitations() {
   }
   else {
       return nombre;
-  };
-};
+  }
+}
 
 //Générer citations
 function generer() {
@@ -119,6 +123,6 @@ function generer() {
         phrase = choixSerie();
         p.innerHTML = phrase;
         bloc.appendChild(p);
-    };
-};
+    }
+}
 
