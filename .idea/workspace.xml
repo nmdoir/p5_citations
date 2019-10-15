@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="634206c4-18e0-46e0-bc5f-9ab62a289031" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Présentation Générateur de citations.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Présentation Générateur de citations.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+            <state relative-caret-position="290">
+              <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -32,17 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="817">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="10092" column="21" selection-start-line="10092" selection-start-column="21" selection-end-line="10092" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -92,16 +94,18 @@
         <option value="$PROJECT_DIR$/js/citations_friends.js" />
         <option value="$PROJECT_DIR$/js/citations_got.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.es6" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/citations_console.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,12 +143,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -195,7 +200,14 @@
       <workItem from="1568026481969" duration="332000" />
       <workItem from="1568047772083" duration="5236000" />
       <workItem from="1568711448261" duration="3319000" />
-      <workItem from="1568734109120" duration="7064000" />
+      <workItem from="1568734109120" duration="10167000" />
+      <workItem from="1570374567111" duration="946000" />
+      <workItem from="1570455779147" duration="580000" />
+      <workItem from="1570456384061" duration="8000" />
+      <workItem from="1570456639007" duration="1521000" />
+      <workItem from="1570462699351" duration="2487000" />
+      <workItem from="1571047045753" duration="1606000" />
+      <workItem from="1571163686260" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="Fichier bootstrap de base">
       <created>1565297653450</created>
@@ -337,11 +349,25 @@
       <option name="project" value="LOCAL" />
       <updated>1568795247846</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="margins result card">
+      <created>1568797406045</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568797406045</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ppt présentation">
+      <created>1568801298722</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568801298722</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104621000" />
+    <option name="totallyTimeSpent" value="117544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,6 +382,26 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.13434023" />
+      <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.24960254" />
+      <window_info id="Favorites" order="2" sideWeight="0.5026455" side_tool="true" weight="0.24960254" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" visible="true" weight="0.18827708" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" weight="0.13474026" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.24960254" />
       <window_info id="Favorites" order="2" sideWeight="0.5026455" side_tool="true" weight="0.24960254" />
@@ -374,7 +420,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -400,7 +446,9 @@
     <MESSAGE value="fonction generer" />
     <MESSAGE value="bug fixes" />
     <MESSAGE value="terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminé" />
+    <MESSAGE value="margins result card" />
+    <MESSAGE value="ppt présentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="ppt présentation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.min.css" />
@@ -413,27 +461,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_test.html" />
-    <entry file="file://$PROJECT_DIR$/js/citations_got.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="8" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/citations_friends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -445,24 +472,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/js/citations_friends.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="103">
+          <caret line="36" column="21" selection-end-line="48" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="122" column="8" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/1er_test.es6">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/citations_got.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/citations_console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="10092" column="21" selection-start-line="10092" selection-start-column="21" selection-end-line="10092" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="10044" selection-start-line="10044" selection-end-line="10047" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+        <state relative-caret-position="290">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
         </state>
       </provider>
     </entry>
